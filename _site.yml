@@ -6,4 +6,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+output:
+  html_document:
+    css: styles.css
+    theme: flatly
 output_dir: "."

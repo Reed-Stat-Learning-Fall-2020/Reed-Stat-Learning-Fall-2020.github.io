@@ -1,11 +1,15 @@
-name: "my-website"
+name: "Reed Math 243 Fall 2020"
 navbar:
-  title: "My Website"
+  title: "Statistical Learning"
   left:
-    - text: "Home"
+    - text: "Homepage"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Syllabus"
+      href: syllabus.html
+    - text: "Schedule"
+      href: schedule.html
+    - text: "Homework"
+      href: Homework.html
 output:
   html_document:
     css: styles.css

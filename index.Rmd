@@ -1,5 +1,11 @@
 ---
-title: "index"
+title: ""
 ---
 
-Hello, Website!
+Welcome to the course website for Math 243!  
+
+# Course Description
+
+# Announcements
+
+ 

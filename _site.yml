@@ -9,7 +9,13 @@ navbar:
     - text: "Schedule"
       href: schedule.html
     - text: "Homework"
-      href: Homework.html
+      href: homework.html
+    - text: "Projects"
+      href: projects.html
+    - text: "Exams"
+      href: exams.html
+    - text: "Resources"
+      href: resources.html
 output:
   html_document:
     css: styles.css

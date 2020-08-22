@@ -2,9 +2,9 @@
 title: ""
 ---
 
-Welcome to the course website for Math 243!  
+![](img/logo.png)
 
-# Course Description
+Welcome to the course website for Math 243!  
 
 # Announcements
 

@@ -1,11 +1,9 @@
 ---
-title: ""
+title: "Math 243: Statistical Learning"
 ---
 
 ![](img/logo.png)
 
-Welcome to the course website for Math 243!  
+Welcome to the course website for Math 243, Fall 2020! 
 
-# Announcements
-
- 
+Here you can find a course syllabus, announcements, the schedule, homework assignments, and information about projects and exams. Check back frequently for updates.

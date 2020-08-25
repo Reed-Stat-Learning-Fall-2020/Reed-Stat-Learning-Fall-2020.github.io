@@ -8,11 +8,19 @@ title: "Schedule"
 
 #### Topics
 
+- Course Logistics
+- 
+
 #### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Review the syllabus
 
 #### Due
 
-
+- Sign-in to our [Slack workspace](reedmath243fall2020.slack.com)
+- 
 
 ### Wednesday
 
@@ -36,35 +44,5 @@ title: "Schedule"
 ***********************************************
 
 
-## Week 2
 
-### Monday
-
-#### Topics
-
-#### Reading Assignment
-
-#### Due
-
-
-
-
-### Wednesday
-
-#### Topics
-
-#### Reading Assignment
-
-#### Due
-
-
-
-
-### Friday
-
-#### Topics
-
-#### Reading Assignment
-
-#### Due
 

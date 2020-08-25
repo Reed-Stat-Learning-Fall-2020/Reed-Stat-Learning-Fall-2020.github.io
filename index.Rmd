@@ -2,8 +2,23 @@
 title: "Math 243: Statistical Learning"
 ---
 
-![](img/logo.png)
-
+<p style="text-align:center;">  <img    src ="img/logo.png" alt = "logo" title="stat learning" width = "400"   />  </p>
 Welcome to the course website for Math 243, Fall 2020! 
 
 Here you can find a course syllabus, announcements, the schedule, homework assignments, and information about projects and exams. Check back frequently for updates.
+
+
+****************************************
+
+
+<img align="left"  src="img/wells-jonathan.jpg" width = "200" style = "margin:0px 50px">
+
+**Instructor**: Jonathan "Nate" Wells
+
+**Email**: <wellsj@reed.edu>
+
+**Classroom**: <https://zoom.us/j/99813563912> (password available in Slack)
+
+**Virtual Office**: <https://zoom.us/my/wellsj392>
+
+**Virtual Office Hours**: Tuesday 6-7pm, Wednesday 10-11am, Thursday 2-3pm, Friday 10-11am; or by appointment

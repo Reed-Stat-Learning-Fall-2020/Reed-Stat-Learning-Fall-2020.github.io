@@ -2,7 +2,7 @@
 title: "Syllabus"
 ---
 
-### Contact Information
+## Contact Information
 
 **Instructor**: Jonathan "Nate" Wells
 
@@ -16,7 +16,7 @@ title: "Syllabus"
 
 *********************************************
 
-### Course Information
+## Course Information
 
 **Course Description**: This course is an overview of modern approaches to analyzing large and complex data sets that arise in a variety of fields from biology to marketing to astrophysics. The most important modeling and predictive techniques will be covered, including regression, classification, clustering, resampling, and tree-based methods. There will be several projects throughout the course, which will require significant programming in R.
 
@@ -52,7 +52,7 @@ Throughout the term, we will use GitHub to manage and submit assignments. GitHub
 
 *********************************************
 
-### Course Outcomes
+## Course Outcomes
 
 By the end of the course, a student should be able to:
 - Articulate and compare the different philosophical approaches to prediction, statistical inference, classification, and clustering.
@@ -64,7 +64,7 @@ By the end of the course, a student should be able to:
 
 *********************************************
 
-### Course Format
+## Course Format
 
 A typical class day will involve the folllowing:
 
@@ -100,6 +100,7 @@ Your grade in the class will be determined by your proficiency in each of the *C
 **If illness or other circumstances prevent you from participating in class for 3 or more class days, please let me know as soon as possible so we can make appropriate arrangements for missed work.**
 
 ********************************************
+## Policies
 
 **Accessibility**: Reed College is dedicated to creating inclusive learning environments. Please notify me as soon as possible if there are aspects of the instruction or design of this course that result in disability-related barriers to your participation. You are also encouraged to contact Disability & Accessibility Resources at <dar@reed.edu>, and to peruse the services offered on their website at <https://www.reed.edu/disability-resources/>.
 

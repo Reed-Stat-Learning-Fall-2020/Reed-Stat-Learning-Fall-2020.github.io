@@ -9,7 +9,7 @@ title: "Schedule"
 #### Topics
 
 - Course Logistics
-- 
+- What is Statistical Learning?
 
 #### Reading Assignment
 
@@ -19,8 +19,17 @@ title: "Schedule"
 
 #### Due
 
-- Sign-in to our [Slack workspace](reedmath243fall2020.slack.com)
-- 
+
+- Complete Slack Introduction:
+  1. Sign-in to our [Slack workspace](reedmath243fall2020.slack.com)
+  2. Navigate to the #general-discussion channel using the menu on the left side of the screen and post a message with your name and three numeric values that describe yourself, two of which are true and one of which is false (don't say which is which).
+  3. Find another person's post, hover over it, and click the chat bubble icon to start a thread. Then guess which of that person's three statements is false.
+  4. Finally, find my name (Nate Wells) under Direct Messages on the left side of the screen, and send me a private message answering the following questions:
+      a) What is your preferred name? (and what are your pronouns, if you'd like to share?)
+      b) Do you have experience using R and Rstudio?
+      c) What do you hope to take away from this course?
+      d) What concerns do you have about this course, or about academics in general this term?
+      e) What is one image that best describes you? (feel free to upload it) 
 
 ### Wednesday
 

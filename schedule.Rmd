@@ -6,6 +6,9 @@ title: "Schedule"
 
 ### Monday
 
+
+[Lecture Slides](lectures/8-31_Intro.pdf)
+
 #### Topics
 
 - Course Logistics
@@ -30,6 +33,9 @@ title: "Schedule"
       c) What do you hope to take away from this course?
       d) What concerns do you have about this course, or about academics in general this term?
       e) What is one image that best describes you? (feel free to upload it) 
+
+
+
 
 ### Wednesday
 

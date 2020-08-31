@@ -12,7 +12,8 @@ title: "Schedule"
 #### Topics
 
 - Course Logistics
-- What is Statistical Learning?
+- How old am I?
+  - [Class data](data/how_old.csv) *Groups 1 - 6 were student groups, Group 7 estimates came from [how-old.net](https://how-old.net) and Group 8 are my estimates based on public data*
 
 #### Reading Assignment
 

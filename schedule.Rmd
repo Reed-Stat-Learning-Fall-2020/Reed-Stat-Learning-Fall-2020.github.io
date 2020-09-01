@@ -42,11 +42,13 @@ title: "Schedule"
 
 #### Topics
 
+- RStudio
+
 - GitHub
 
-- What is Statistical Learning?
+  - [Working Solo](https://github.com/Reed-Stat-Learning-Fall-2020/course-materials/raw/master/Activities/working_solo_github.pdf)
 
-- Estimating $f$
+- GitHub Classroom
 
 #### Reading Assignment
 

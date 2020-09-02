@@ -37,9 +37,12 @@ This course does not satisfy the "primary data collection and analysis" requirem
 <https://link.springer.com/book/10.1007%2F978-1-4614-6849-3>
 
 **Course Resources**: The following web-based resources will be used for communicating class information:
-- Slack <reedmath391fall2020.slack.com> (*announcements, discussions, direct messaging*)
+
+- Slack <reedmath391fall2020.slack.com> (*announcements, discussions, direct messaging*).
+
 - Course Website <https://Reed-Stat-Learning-Fall-2020.github.io> (*documents, a daily schedule, assignments*).
-- GitHub Classroom <https://classroom.github.com/classrooms/69487382-reed-stat-learning-fall-2020-classroom> (*homework submission*)
+
+- GitHub Classroom <https://classroom.github.com/classrooms/69487382-reed-stat-learning-fall-2020-classroom> (*homework submission*).
 
 
 **Technology**: Our class will be conducted primarily online using Zoom. You will need the following during our scheduled class time: a computer with stable internet access, a webcam and microphone, a location where you can carry out a conversation at normal volume. 

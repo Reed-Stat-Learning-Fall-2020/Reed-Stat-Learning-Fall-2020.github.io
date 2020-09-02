@@ -40,6 +40,8 @@ title: "Schedule"
 
 ### Wednesday
 
+[Lecture Slides](lectures/9-2_GitHub.pdf)
+
 #### Topics
 
 - RStudio

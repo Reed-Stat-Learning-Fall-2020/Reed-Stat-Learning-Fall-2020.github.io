@@ -65,6 +65,9 @@ title: "Schedule"
 
 ### Friday
 
+[Lecture Slides](lectures/9-4_Estimating_f.pdf)
+
+
 #### Topics
 
 - Estimating $f$, the relationship between predictor and response variables

@@ -90,4 +90,49 @@ title: "Schedule"
 
 
 
+## Week 2
+
+### Monday
+
+No class; Labor Day
+
+
+
+### Wednesday
+
+
+#### Topics
+
+- Decomposing the Mean Squared Error
+
+- The Bias-Variance Trade-off
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 2.2 (p 29-41) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Assigned
+
+- Homework 1 (Due Wednesday, 9/16 by the start of class)
+
+
+
+### Friday
+
+
+#### Topics
+
+- Review Simple Linear Regression
+
+- Introduction to Multiple Linear Regression
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.1 (p 59-72) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 

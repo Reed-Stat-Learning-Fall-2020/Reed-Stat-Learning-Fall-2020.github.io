@@ -1,0 +1,80 @@
+---
+title: "Demo 9-9"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Generate Data
+
+
+
+```{r}
+#generate data
+n<-20
+X<-runif(n, -1,1)
+Y<-X^3-X + rnorm(length(X),0,.1)
+
+df<-data.frame(X,Y)
+```
+
+Here, we suppose we actually know the functional form relatioship between $Y$ and $X$. In particular, $Y = X^3 -X + \epsilon$, where $\epsilon \sim N(0, 0.05)$
+
+## Visualize Data
+
+```{r}
+my_fun<-function(x){
+  x^3-x
+}
+
+  ggplot()+
+    geom_point(data = df, aes(x = X, y= Y)) +
+    stat_function(data = data.frame(z = c(-1,1)) , aes(x  = z), fun = my_fun) 
+```
+
+## Build Models
+
+```{r}
+my_fun<-function(x){
+  x^3-x
+} ## formula for f
+
+N<- 9 ## degree of polynomial model
+
+ggplot()+
+  geom_point(data = df, aes(x = X, y= Y)) +
+  stat_function(data = data.frame(z = c(-1,1)) , aes(x  = z), fun = my_fun)+
+  geom_smooth(data = df, aes(x = X, y= Y), method = "lm", formula = y ~ poly(x, N), se = FALSE)
+```
+
+
+## Test Data
+
+```{r}
+#generate test data
+n2<-10
+X2<-runif(n, -1,1)
+Y2<-X2^3-X2 + rnorm(length(X2),0,.1)
+
+df2<-data.frame(X2,Y2)
+```
+
+
+## Assess Model
+
+```{r}
+N2<-9 ## degree of polynomial
+
+my_fun<-function(x){
+  x^3-x
+}
+
+  ggplot()+
+    geom_point(data = df2, aes(x = X2, y= Y2)) +
+    stat_function(data = data.frame(z = c(-1,1)) , aes(x  = z), fun = my_fun)  +
+    geom_smooth(data = df, aes(x = X, y= Y), method = "lm", formula = y ~ poly(x, N2), se = FALSE)
+    
+```

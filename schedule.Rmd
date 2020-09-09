@@ -100,10 +100,13 @@ No class; Labor Day
 
 ### Wednesday
 
+[Lecture Slides](lectures/9-9_Assessing_Accuracy.pdf)
 
 #### Topics
 
 - Decomposing the Mean Squared Error
+  
+  - [Wednesday 9-9 Demo](files/demo_9-9.Rmd)
 
 - The Bias-Variance Trade-off
 

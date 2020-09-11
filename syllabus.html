@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
 
 <meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -87,6 +87,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -235,7 +236,6 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
-  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -248,9 +248,48 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
 
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <style type="text/css">
 
@@ -264,12 +303,6 @@ $(document).ready(function () {
 }
 }
 
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
 
 .toc-content {
   padding-left: 30px;
@@ -389,7 +422,7 @@ div.tocify {
 <div id="contact-information" class="section level2">
 <h2>Contact Information</h2>
 <p><strong>Instructor</strong>: Jonathan “Nate” Wells</p>
-<p><strong>Email</strong>: <a href="mailto:wellsj@reed.edu" class="email">wellsj@reed.edu</a></p>
+<p><strong>Email</strong>: <a href="mailto:wellsj@reed.edu">wellsj@reed.edu</a></p>
 <p><strong>Classroom</strong>: <a href="https://zoom.us/j/99813563912" class="uri">https://zoom.us/j/99813563912</a> (password available in Slack)</p>
 <p><strong>Virtual Office</strong>: <a href="https://zoom.us/my/wellsj392" class="uri">https://zoom.us/my/wellsj392</a></p>
 <p><strong>Virtual Office Hours</strong>: Tuesday 6-7pm, Wednesday 10-11am, Thursday 2-3pm, Friday 10-11am; or by appointment</p>
@@ -408,8 +441,8 @@ div.tocify {
 <p>This course does not satisfy the “primary data collection and analysis” requirement.</p>
 <p><strong>Textbook</strong>:</p>
 <ul>
-<li>(Primary) <em>An Introduction to Statistical Learning</em>, 1st Edition by James, Witten, Hastie, and Tibshirani. Free online access to the textbook is available at SpringerLink <a href="https://link.springer.com/book/10.1007%2F978-1-4614-7138-7" class="uri">https://link.springer.com/book/10.1007%2F978-1-4614-7138-7</a></li>
-<li>(Secondary) <em>Applied Predictive Modeling</em>, 1st Edition by Kuhn and Johnson. We will use select content from this text to supplement . Free online access to the textbook is available at SpringerLink <a href="https://link.springer.com/book/10.1007%2F978-1-4614-6849-3" class="uri">https://link.springer.com/book/10.1007%2F978-1-4614-6849-3</a></li>
+<li>(Primary) <em>An Introduction to Statistical Learning</em>, 1st Edition by James, Witten, Hastie, and Tibshirani. Free online access to the textbook is available at SpringerLink <a href="https://link.springer.com/book/10.1007%2F978-1-4614-7138-7">https://link.springer.com/book/10.1007%2F978-1-4614-7138-7</a></li>
+<li>(Secondary) <em>Applied Predictive Modeling</em>, 1st Edition by Kuhn and Johnson. We will use select content from this text to supplement . Free online access to the textbook is available at SpringerLink <a href="https://link.springer.com/book/10.1007%2F978-1-4614-6849-3">https://link.springer.com/book/10.1007%2F978-1-4614-6849-3</a></li>
 </ul>
 <p><strong>Course Resources</strong>: The following web-based resources will be used for communicating class information:</p>
 <ul>
@@ -459,7 +492,7 @@ div.tocify {
 </div>
 <div id="policies" class="section level2">
 <h2>Policies</h2>
-<p><strong>Accessibility</strong>: Reed College is dedicated to creating inclusive learning environments. Please notify me as soon as possible if there are aspects of the instruction or design of this course that result in disability-related barriers to your participation. You are also encouraged to contact Disability &amp; Accessibility Resources at <a href="mailto:dar@reed.edu" class="email">dar@reed.edu</a>, and to peruse the services offered on their website at <a href="https://www.reed.edu/disability-resources/" class="uri">https://www.reed.edu/disability-resources/</a>.</p>
+<p><strong>Accessibility</strong>: Reed College is dedicated to creating inclusive learning environments. Please notify me as soon as possible if there are aspects of the instruction or design of this course that result in disability-related barriers to your participation. You are also encouraged to contact Disability &amp; Accessibility Resources at <a href="mailto:dar@reed.edu">dar@reed.edu</a>, and to peruse the services offered on their website at <a href="https://www.reed.edu/disability-resources/" class="uri">https://www.reed.edu/disability-resources/</a>.</p>
 <p><strong>Academic Integrity</strong>: Students are allowed and encouraged to collaborate on most in-class and homework assignments. However, any work that you turn in for grading must be your own. You are welcome to use internet resources to supplement content we cover in this course, with the exception of solutions to homework problems. Copying solutions from the internet is an Honor Principle violation. Exams will explicitly mention what resources may be consulted. All written work that references material outside of the textbook or lecture should be accompanied by an appropriate citation.</p>
 <hr />
 </div>
@@ -546,49 +579,6 @@ $(document).ready(function () {
 });
 
 
-</script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

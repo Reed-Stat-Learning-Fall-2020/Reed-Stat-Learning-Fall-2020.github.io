@@ -4,7 +4,7 @@ title: "Schedule"
 
 ## Week 1
 
-### Monday
+### Monday 8-31
 
 
 [Lecture Slides](lectures/8-31_Intro.pdf)
@@ -38,7 +38,7 @@ title: "Schedule"
 
 
 
-### Wednesday
+### Wednesday 9-2
 
 [Lecture Slides](lectures/9-2_GitHub.pdf)
 
@@ -63,7 +63,7 @@ title: "Schedule"
 
 - Sign up for a [GitHub](https://github.com) account.
 
-### Friday
+### Friday 9-4
 
 [Lecture Slides](lectures/9-4_Estimating_f.pdf)
 
@@ -92,13 +92,13 @@ title: "Schedule"
 
 ## Week 2
 
-### Monday
+### Monday 9-7
 
 No class; Labor Day
 
 
 
-### Wednesday
+### Wednesday 9-9
 
 [Lecture Slides](lectures/9-9_Assessing_Accuracy.pdf)
 
@@ -123,7 +123,7 @@ No class; Labor Day
 
 
 
-### Friday
+### Friday 9-11
 
 [Lecture Slides](lectures/9-11_SLR.pdf)
 
@@ -140,3 +140,68 @@ No class; Labor Day
 
 - Section 3.1 (p 59-72) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
+
+
+
+
+**************************************************
+
+
+
+
+## Week 3
+
+### Monday 9-14
+ 
+
+#### Topics
+ 
+
+- Introduction to Multiple Linear Regression
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.2 (p 71-82) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+### Wednesday 9-16
+ 
+
+#### Topics
+ 
+
+- Extensions of the Linear Model
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.3 (p 82-92) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Due
+
+- Homework 1
+
+
+#### Assigned
+
+- Homework 2 (Due Wednesday, 9/23 by the start of class)
+
+
+### Friday 9-18
+ 
+
+#### Topics
+ 
+
+- Troubleshooting Linear Models
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 3.3 (p 92-102) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)

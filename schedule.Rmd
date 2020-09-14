@@ -152,12 +152,17 @@ No class; Labor Day
 ## Week 3
 
 ### Monday 9-14
- 
+
+[Lecture Slides](lectures/9-14_MLR.pdf)
 
 #### Topics
  
 
 - Introduction to Multiple Linear Regression
+  - [Regression plane for MLR](files/3d_scatterplot.html) [(.Rmd)](files/3d_scatterplot.Rmd)
+- Assessing Accuracy of Linear Models
+- Linear Models in R
+  
 
 
 #### Reading Assignment

@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -87,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -236,6 +235,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -248,48 +248,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -303,6 +264,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -428,8 +395,10 @@ div.tocify {
 <h4>Topics</h4>
 <ul>
 <li>Course Logistics</li>
-<li>How old am I?</li>
+<li>How old am I?
+<ul>
 <li><a href="data/how_old.csv">Class data</a> <em>Groups 1 - 6 were student groups, Group 7 estimates came from <a href="https://how-old.net">how-old.net</a> and Group 8 are my estimates based on public data</em></li>
+</ul></li>
 </ul>
 </div>
 <div id="reading-assignment" class="section level4">
@@ -442,8 +411,7 @@ div.tocify {
 <div id="due" class="section level4">
 <h4>Due</h4>
 <ul>
-<li>Complete Slack Introduction:</li>
-</ul>
+<li>Complete Slack Introduction:
 <ol style="list-style-type: decimal">
 <li>Sign-in to our <a href="reedmath243fall2020.slack.com">Slack workspace</a></li>
 <li>Navigate to the #general-discussion channel using the menu on the left side of the screen and post a message with your name and three numeric values that describe yourself, two of which are true and one of which is false (don’t say which is which).</li>
@@ -456,7 +424,8 @@ div.tocify {
 <li>What concerns do you have about this course, or about academics in general this term?</li>
 <li>What is one image that best describes you? (feel free to upload it)</li>
 </ol></li>
-</ol>
+</ol></li>
+</ul>
 </div>
 </div>
 <div id="wednesday-9-2" class="section level3">
@@ -466,8 +435,10 @@ div.tocify {
 <h4>Topics</h4>
 <ul>
 <li><p>RStudio</p></li>
-<li>GitHub</li>
-<li><p><a href="https://github.com/Reed-Stat-Learning-Fall-2020/course-materials/raw/master/Activities/working_solo_github.pdf">Working Solo</a></p></li>
+<li><p>GitHub</p>
+<ul>
+<li><a href="https://github.com/Reed-Stat-Learning-Fall-2020/course-materials/raw/master/Activities/working_solo_github.pdf">Working Solo</a></li>
+</ul></li>
 <li><p>GitHub Classroom</p></li>
 </ul>
 </div>
@@ -524,8 +495,10 @@ div.tocify {
 <div id="topics-3" class="section level4">
 <h4>Topics</h4>
 <ul>
-<li><p>Decomposing the Mean Squared Error</p></li>
-<li><p><a href="files/demo_9-9.Rmd">Wednesday 9-9 Demo</a></p></li>
+<li><p>Decomposing the Mean Squared Error</p>
+<ul>
+<li><a href="files/demo_9-9.Rmd">Wednesday 9-9 Demo</a></li>
+</ul></li>
 <li><p>The Bias-Variance Trade-off</p></li>
 </ul>
 </div>
@@ -567,10 +540,16 @@ div.tocify {
 <h2>Week 3</h2>
 <div id="monday-9-14" class="section level3">
 <h3>Monday 9-14</h3>
+<p><a href="lectures/9-14_MLR.pdf">Lecture Slides</a></p>
 <div id="topics-5" class="section level4">
 <h4>Topics</h4>
 <ul>
-<li>Introduction to Multiple Linear Regression</li>
+<li>Introduction to Multiple Linear Regression
+<ul>
+<li><a href="files/3d_scatterplot.html">Regression plane for MLR</a> <a href="files/3d_scatterplot.Rmd">(.Rmd)</a></li>
+</ul></li>
+<li>Assessing Accuracy of Linear Models</li>
+<li>Linear Models in R</li>
 </ul>
 </div>
 <div id="reading-assignment-5" class="section level4">
@@ -645,6 +624,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

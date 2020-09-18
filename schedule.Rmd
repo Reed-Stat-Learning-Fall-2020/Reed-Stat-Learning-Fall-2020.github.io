@@ -198,12 +198,14 @@ No class; Labor Day
 
 
 ### Friday 9-18
- 
+
+[Lecture Slides](lectures/9-18_MLR_Extensions.pdf)
 
 #### Topics
  
 
-- Troubleshooting Linear Models
+- Extensions of the Linear Model
+  - [Code from today's class](files/Demo_9-18.Rmd)
 
 
 #### Reading Assignment

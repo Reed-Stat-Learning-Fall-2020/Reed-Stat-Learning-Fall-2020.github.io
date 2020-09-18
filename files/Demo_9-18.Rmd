@@ -1,0 +1,79 @@
+---
+title: "Demo 9-18"
+author: "Wells"
+date: "9/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+## Exams 
+
+```{r}
+midterm<-rnorm(100, 75, 5)
+hours<-sample(c(4:8), 100, replace = T)
+final<-midterm[1]*(1 - .05*(9-hours[1]))+ rnorm(1, mean = 0, sd = (9-hours[1]))+5
+for (i in 2:100){
+  final <- c(final,5+ midterm[i]*(1 - .1*(9-hours[i])) + rnorm(1, 0, sd = (9-hours[i])))
+}
+Exam<-data.frame(midterm, hours, final)
+```
+
+
+```{r }
+exam_mod<-lm(final ~ midterm + hours, data = Exam)
+summary(exam_mod)
+```
+
+```{r }
+Exam %>% ggplot(aes(x = midterm, y = final ))+geom_point()
+```
+
+```{r  }
+Exam %>% ggplot(aes(x = midterm, y = final, color = hours ))+geom_point()
+```
+
+```{r  }
+exam_mod_int<-lm(final ~ midterm + hours + midterm:hours, data = Exam)
+summary(exam_mod_int)
+```
+
+
+## Emails
+
+```{r}
+hour<-0:48
+base<--4*cos(hour*2*pi/24)+5
+number <- base + sample(-1:1, 49, replace = T)
+emails<-data.frame(hour, number)
+```
+
+
+```{r fig.height=4, fig.width=6, out.width="70%"}
+ggplot(emails, aes( x = hour, y = number)) +geom_point()
+```
+
+```{r }
+ggplot(emails, aes( x = hour, y = number)) +geom_point() +
+  geom_smooth(method = "lm", se = F, formula = y ~ poly(x, 4 )) +
+  geom_smooth(method = "lm", se = F, color = "red")
+```
+
+
+```{r  }
+ggplot(emails, aes( x = hour, y = number)) +geom_point() +
+  geom_smooth(method = "lm", se = F, formula = y ~ poly(x, 4 )) +
+  geom_smooth(method = "lm", se = F, formula = y ~ poly(x, 2 ), color = "darkgreen") +
+  geom_smooth(method = "lm", se = F, formula = y ~ poly(x, 6), color = "purple") +
+  geom_smooth(method = "lm", se = F, color = "red")
+```
+
+
+```{r  }
+emails_mod<-lm(number ~ poly(hour, degree = 4), data = emails)
+summary(emails_mod)
+```

@@ -33,3 +33,9 @@ A weekly problem set will be made available after class on Wednesday, due before
 [Assignment](homework/hw_1.pdf) ([.Rmd](homework/hw_1.Rmd))
 
 **Due: Wednesday, 9/16 by 1:35pm**
+
+## Homework 2
+
+[Assignment](homework/hw_2.pdf) ([.Rmd](homework/hw_2.Rmd))
+
+**Due: Wednesday, 9/23 by 1:35pm**

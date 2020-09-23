@@ -237,12 +237,12 @@ No class; Labor Day
 - Section 3.6 (p 109-119) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
 ### Wednesday 9-23
- 
+ [Lecture Slides](lectures/9-23_MLR_Examples.pdf)
 
 #### Topics
  
 
-- Comparison with the $K$-nearest neighbor model
+- Transformations
 
 
 #### Reading Assignment

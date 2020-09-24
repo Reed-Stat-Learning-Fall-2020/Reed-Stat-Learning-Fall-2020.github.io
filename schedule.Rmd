@@ -223,6 +223,8 @@ No class; Labor Day
 
 [Lecture Slides](lectures/9-21_MLR_Troubleshooting.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/t6MQf3q4) (requires Reed Kerberus credentials to watch)
+
 #### Topics
  
 
@@ -238,6 +240,8 @@ No class; Labor Day
 
 ### Wednesday 9-23
  [Lecture Slides](lectures/9-23_MLR_Examples.pdf)
+ 
+ [Lecture Video](https://ensemble.reed.edu/Watch/Ec79MyRr) (requires Reed Kerberus credentials to watch)
 
 #### Topics
  

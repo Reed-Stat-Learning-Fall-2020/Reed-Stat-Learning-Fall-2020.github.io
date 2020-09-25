@@ -272,7 +272,7 @@ No class; Labor Day
  
 
 - Review
-
+  - [Midterm Practice](files/Midterm_1_Review.Rmd)
 
 #### Reading Assignment
 

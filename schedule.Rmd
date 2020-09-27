@@ -281,3 +281,66 @@ No class; Labor Day
 *Note that the listed reading assignments should be completed prior to class*
 
 - None
+
+**********************************************
+
+## Week 5
+
+### Monday 9-28
+
+ 
+
+#### Topics
+ 
+
+- KNN and Bayes Classifier
+  
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Review Section 2.2.3 (p 37-42) and Section 3.5 (p 104-109) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+
+### Wednesday 9-30
+ 
+
+#### Topics
+ 
+
+- Logistic Regression
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.1 - 4.3 (p 127-137) and Section 4.6.2 (p 156 - 160) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Due
+
+- None
+
+
+#### Assigned
+
+- HW 3 assigned (Due Wednesday 10/7 by 1:35pm)
+
+
+### Friday 9-25
+
+ 
+
+#### Topics
+ 
+
+-  More Logistic Regression 
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 12.1 - 12.2 (p 275 - 287) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 

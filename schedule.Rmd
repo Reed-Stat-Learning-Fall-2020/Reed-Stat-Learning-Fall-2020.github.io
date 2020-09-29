@@ -290,6 +290,8 @@ No class; Labor Day
 
 [Lecture Slides](lectures/9-28_KNN.pdf)  
 
+[Lecture Video](https://ensemble.reed.edu/Watch/m5ZYj94N)
+
 #### Topics
  
 

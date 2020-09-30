@@ -1,0 +1,27 @@
+---
+title: "Logistic_example"
+author: "Wells"
+date: "9/30/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+```
+
+```{r}
+x<-seq(-1,1, length.out = 100)
+y<-seq(-1,1, length.out = 100)
+f<-function(x,y){exp(1+x+y)/(1 + exp(1+x+y))}
+z<-outer(x,y,f)
+
+g<-function(x,y){.5+0*x + 0*y}
+
+zz<-outer(x,y, g)
+
+fig<-plot_ly() %>% add_surface(x = x ,y = y , z = z)
+#%>% add_surface(x = x, y = y, z =zz)
+
+fig
+```

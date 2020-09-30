@@ -308,12 +308,15 @@ No class; Labor Day
 
 
 ### Wednesday 9-30
- 
+
+[Lecture Slides](lectures/9-30_LogisticReg.pdf)  
 
 #### Topics
  
 
 - Logistic Regression
+
+  - [3d Plot of Logistic function](files/Logistic_Example.html)
 
 
 #### Reading Assignment

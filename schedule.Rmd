@@ -339,12 +339,16 @@ No class; Labor Day
 
 ### Friday 9-25
 
-
+[Lecture Slides](lectures/10-2_LogisticReg2.pdf)  
 
 #### Topics
  
 
 -  More Logistic Regression 
+
+  - [Titanic](data/titanic.csv)
+  
+  - [mushrooms](data/mushrooms.csv)
 
 #### Reading Assignment
 

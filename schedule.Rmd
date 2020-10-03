@@ -339,7 +339,9 @@ No class; Labor Day
 
 ### Friday 9-25
 
-[Lecture Slides](lectures/10-2_LogisticReg2.pdf)  
+[Lecture Slides](lectures/10-2_LogisticReg2.pdf)
+
+[Lecture Video](https://ensemble.reed.edu/Watch/Fg9i4DXa)
 
 #### Topics
  

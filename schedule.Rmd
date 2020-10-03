@@ -357,3 +357,82 @@ No class; Labor Day
 *Note that the listed reading assignments should be completed prior to class*
 
 - Section 12.1 - 12.2 (p 275 - 287) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 
+
+
+
+**********************************************
+
+## Week 6
+
+### Monday 10-5
+
+ 
+
+#### Topics
+ 
+
+- Assessing model performance for classification
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 4.6.1, 4.6.2, 4.6.5 and 4.6.6 (p 154-161, 163 - 167) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+
+### Wednesday 10-7
+
+
+
+#### Topics
+ 
+
+- Linear Discriminant Analysis
+
+ 
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.4 (p 138 - 150) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+*The following reading is suggested for those interested in the mathematics behind LDA and who are familiar with linear algebra*
+
+- Section 12.3 (p 287 - 297) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 
+
+
+#### Due
+
+- HW 3
+
+
+#### Assigned
+
+- HW 4 assigned (Due Wednesday 10/14 by 1:35pm)
+
+
+### Friday 10-9
+ 
+
+#### Topics
+ 
+
+-  QDA
+
+- Comparison of Classification Methods
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+
+- Read Sections 4.5, 4.6.3, 4.6.4 (p 151 - 154, 161 - 163) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+*The following reading is suggested for those interested in the mathematics behind QDA and who are familiar with linear algebra*
+
+- Section 13.1 (p 329 - 332) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 

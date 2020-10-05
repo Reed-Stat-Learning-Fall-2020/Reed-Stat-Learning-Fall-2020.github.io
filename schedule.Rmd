@@ -376,6 +376,9 @@ No class; Labor Day
 
 - Assessing model performance for classification
 
+  - [Iris demo from end of class](files/Demo_10-5.html) [(.Rmd)](Demo_10-5.html
+Demo_10-5.Rmd)
+
 - [Mushroom Hunting](data/mushrooms.csv)
 
 #### Reading Assignment

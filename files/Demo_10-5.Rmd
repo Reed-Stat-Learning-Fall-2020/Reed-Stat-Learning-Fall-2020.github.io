@@ -1,0 +1,46 @@
+---
+title: "CLass Demo 10-5"
+author: "Wells"
+date: "10/5/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+## Changing Classification Threshold in Log-Reg Models
+
+Let's use the iris data set
+
+```{r}
+data(iris)
+```
+
+The `Species` variable is categorical and will serve as our response. Since log-reg is only appropriate for binary categorical variables, we create a new response `setosa` based on whether a given iris setosa or not.
+
+```{r}
+iris1 <- iris %>% mutate(setosa = ifelse(Species == "setosa", 1, 0))
+```
+
+Now we create the logistic regression model, with `setosa` as a function of `Sepal.Width`.
+
+```{r}
+log_reg <- glm(setosa ~ Sepal.Width , data = iris1, family = "binomial")
+```
+
+We create probability predictions from the model (note that the result would be log-odds if we omitted `type = "response"`)
+
+```{r}
+probs<-predict(log_reg, iris1, type = "response")
+```
+
+Finally, we create our actual predictions using an `ifelse` statement. The classification threshhold is determined by the value we set on the right side of the `>=` inequality. Here, for example, we set our threshold at 0.253.
+
+```{r}
+predicts<-ifelse( probs >= .253, 1, 0)
+predicts
+```
+

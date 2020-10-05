@@ -370,6 +370,8 @@ No class; Labor Day
 
 [Lecture Slides](lectures/10-5_Class_Performance.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/m9ENf75P)
+
 #### Topics
  
 - KNN in R

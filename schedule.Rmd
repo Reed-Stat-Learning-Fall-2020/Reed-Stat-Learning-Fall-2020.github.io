@@ -364,14 +364,19 @@ No class; Labor Day
 
 ## Week 6
 
+
+
 ### Monday 10-5
 
- 
+[Lecture Slides](lectures/10-5_Class_Performance.pdf)
 
 #### Topics
  
+- KNN in R
 
 - Assessing model performance for classification
+
+- [Mushroom Hunting](data/mushrooms.csv)
 
 #### Reading Assignment
 

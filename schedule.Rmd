@@ -393,7 +393,7 @@ Demo_10-5.Rmd)
 
 ### Wednesday 10-7
 
-
+[Lecture Slides](lectures/10-7_LDA.pdf)
 
 #### Topics
  

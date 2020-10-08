@@ -395,6 +395,8 @@ Demo_10-5.Rmd)
 
 [Lecture Slides](lectures/10-7_LDA.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/Nk7c2HRy)
+
 #### Topics
  
 

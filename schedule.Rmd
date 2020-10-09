@@ -428,6 +428,7 @@ Demo_10-5.Rmd)
 
 ### Friday 10-9
  
+[Lecture Slides](lectures/10-9_QDA.pdf)
 
 #### Topics
  

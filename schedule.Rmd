@@ -451,3 +451,28 @@ Demo_10-5.Rmd)
 *The following reading is suggested for those interested in the mathematics behind QDA and who are familiar with linear algebra*
 
 - Section 13.1 (p 329 - 332) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 
+
+
+## Week 7
+
+
+
+### Monday 10-12
+
+
+
+#### Topics
+ 
+- Cross validation
+
+- LOOCV 
+
+- k-fold CV
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 5.1 and 5.3.1 - 5.3.3 (p 175 - 186, 191 - 193) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+

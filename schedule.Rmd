@@ -465,6 +465,8 @@ Demo_10-5.Rmd)
  
 - Cross validation
 
+  - [Penguin Model Google Sheet](https://docs.google.com/spreadsheets/d/1K4sYoF8cTQAtlt8esWU_IepyvyLeIUEyXi1DoVqXRYc/edit?usp=sharing)
+
 - LOOCV 
 
 - k-fold CV

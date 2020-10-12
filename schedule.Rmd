@@ -459,7 +459,7 @@ Demo_10-5.Rmd)
 
 ### Monday 10-12
 
-
+[Lecture Notes](lectures/10-12_CV.pdf)
 
 #### Topics
  

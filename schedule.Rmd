@@ -461,6 +461,9 @@ Demo_10-5.Rmd)
 
 [Lecture Notes](lectures/10-12_CV.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/c8E9QzYm)
+
+
 #### Topics
  
 - Cross validation
@@ -478,3 +481,51 @@ Demo_10-5.Rmd)
 
 - Sections 5.1 and 5.3.1 - 5.3.3 (p 175 - 186, 191 - 193) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
 
+### Wednesday 10-14
+ 
+
+
+#### Topics
+ 
+- Cross validation
+
+  - [Penguin Model Google Sheet](https://docs.google.com/spreadsheets/d/1K4sYoF8cTQAtlt8esWU_IepyvyLeIUEyXi1DoVqXRYc/edit?usp=sharing)
+
+- LOOCV 
+
+- k-fold CV
+
+- The bootstrap
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 5.2 and 5.3.4 (p 187 - 190, 194 - 197) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Due
+
+- HW 4
+
+
+#### Assigned
+
+- HW 5 assigned (Due Wednesday 10/21 by 1:35pm)
+
+
+### Friday 10-16
+
+
+#### Topics
+ 
+- The bootstrap
+
+- Summary of data splitting methods
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 4.3, 4.4, 4.7, 4.8 (p 67 - 73, 77 - 80) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3)

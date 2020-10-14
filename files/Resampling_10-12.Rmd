@@ -22,7 +22,8 @@ errors_tidy<-data.frame(e,type)
 
 
 ```{r}
-ggplot(errors_tidy, aes(x = e, fill = type))+geom_histogram(bins = 15, alpha = .75)+labs(x = "Error", title = "LDA vs QDA Error")+theme_bw()
+ggplot(errors_tidy, aes(x = e, fill = type))+geom_histogram(bins = 15, alpha = .75, position = "identity")+labs(x = "Error", title = "LDA vs QDA Error")+theme_bw()
+
 ggplot(errors_tidy, aes(x = e, fill = type))+geom_density(alpha =.5)+labs(x = "Error", title = "LDA vs QDA Error")+theme_bw()
 ```
 

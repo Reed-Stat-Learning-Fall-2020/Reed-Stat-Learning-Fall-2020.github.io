@@ -485,6 +485,8 @@ Demo_10-5.Rmd)
  
 [Lecture Notes](lectures/10-14_CV_Bias_Variance.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/b7GQo4c5)
+
 #### Topics
  
 - Cross validation

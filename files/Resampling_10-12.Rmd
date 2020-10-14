@@ -1,0 +1,61 @@
+---
+title: "Resampling"
+author: "Wells"
+date: "10/12/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+errors<-read_csv("data/Resampling.csv")
+```
+
+```{r}
+e <- c(errors$lda_error, errors$qda_error)
+type <- rep(c("lda","qda"),   c(length(errors$lda_error), length(errors$qda_error)))
+errors_tidy<-data.frame(e,type)
+```
+
+
+```{r}
+ggplot(errors_tidy, aes(x = e, fill = type))+geom_histogram(bins = 15, alpha = .75)+labs(x = "Error", title = "LDA vs QDA Error")+theme_bw()
+ggplot(errors_tidy, aes(x = e, fill = type))+geom_density(alpha =.5)+labs(x = "Error", title = "LDA vs QDA Error")+theme_bw()
+```
+
+```{r}
+errors_tidy %>% group_by(type) %>% summarize(mean = mean(e), sd = sd(e))
+
+errors %>% mutate(diff_error = qda_error - lda_error) %>% summarize(mean_diff = mean(diff_error), QDA_better = sum(diff_error < 0), LDA_better = sum(diff_error > 0))
+```
+
+
+
+
+```{r eval = F, echo = F}
+## LDA and QDA errors for 31 additional "students"
+library(palmerpenguins)
+library(MASS)
+lda_error<-c()
+qda_error<-c()
+
+for (i in 1:31){
+set.seed(1234 + i^2)
+
+penguins_train<-penguins %>% sample_frac(.7)
+penguins_test<-penguins %>% anti_join(penguins_train)
+lda_mod<-lda(species ~ flipper_length_mm + body_mass_g, data = penguins_train)
+qda_mod<-qda(species ~ flipper_length_mm + body_mass_g, data = penguins_train)
+lda_pred<-predict(lda_mod, penguins_test)
+qda_pred<-predict(qda_mod, penguins_test)
+lda_conf<-table(lda_pred$class, penguins_test$species)
+
+lda_error<-c( (sum(lda_conf) - sum(diag(lda_conf)))/sum(lda_conf), lda_error)
+qda_conf<-table(qda_pred$class, penguins_test$species)
+qda_error<-c( (sum(qda_conf) - sum(diag(qda_conf)))/sum(qda_conf), qda_error)
+}
+```
+

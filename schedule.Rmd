@@ -483,19 +483,21 @@ Demo_10-5.Rmd)
 
 ### Wednesday 10-14
  
-
+[Lecture Notes](lectures/10-14_CV_Bias_Variance.pdf)
 
 #### Topics
  
 - Cross validation
 
   - [Penguin Model Google Sheet](https://docs.google.com/spreadsheets/d/1K4sYoF8cTQAtlt8esWU_IepyvyLeIUEyXi1DoVqXRYc/edit?usp=sharing)
+  
+  - [Penguin Group Analysis](files/Resampling_10-12.html) [.Rmd](files/Resampling_10-12.Rmd)
 
 - LOOCV 
 
 - k-fold CV
 
-- The bootstrap
+- Bias-Variance Tradeoff Penguins
 
 
 #### Reading Assignment

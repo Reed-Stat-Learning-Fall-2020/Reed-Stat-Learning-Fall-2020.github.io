@@ -520,6 +520,7 @@ Demo_10-5.Rmd)
 
 ### Friday 10-16
 
+[Lecture Notes](lectures/10-16_CV_Bootstrap.pdf)
 
 #### Topics
  

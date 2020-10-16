@@ -1,0 +1,127 @@
+---
+title: "Demo_10-16"
+author: "Wells"
+date: "10/14/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+## Bias-Variance Trade-off
+
+### Load and Inspect Data
+```{r}
+library(palmerpenguins)
+penguins<-penguins %>% drop_na()
+```
+ 
+ Let's compare flipper length and body mass
+ 
+```{r}
+ggplot( penguins, aes( x = flipper_length_mm, y= body_mass_g))+geom_point()
+```
+ 
+
+### Build Models
+ 
+Let's find the best polynomial to fit this data
+
+```{r}
+## Linear
+
+my_linear_model<- lm(body_mass_g ~ flipper_length_mm, data = penguins)
+
+summary(my_linear_model)
+```
+
+```{r}
+## Quadratic
+
+my_quad_model<- lm(body_mass_g ~ poly(flipper_length_mm, 2), data = penguins)
+
+summary(my_quad_model)
+```
+
+
+Build model for a variety of polynomial degree
+
+```{r}
+n<-10 ##max degree
+
+my_models<-list() #empty list
+
+for (i in 1:n){
+  my_models[[i]]<-lm( body_mass_g ~ poly(flipper_length_mm, i ), data= penguins)
+}
+```
+
+
+What is adjusted and unadjusted R-squared?
+
+```{r}
+R_sq <- data.frame() #empty data frame
+
+for (i in 1:n){
+  R_sq <-
+    rbind(R_sq, 
+          data.frame(degree = i,
+            r.squared = summary( my_models[[i]])$r.squared, 
+                     adj.r.squared = summary( my_models[[i]])$adj.r.squared) )
+}
+```
+
+Plot R_sq
+
+```{r}
+## R squared is Red
+## Adjusted R squared is Black
+ggplot(R_sq, aes(x = degree))+geom_line(aes(y = r.squared), color = "red") +
+  geom_line(aes(y = adj.r.squared))
+```
+
+
+### Validate Models
+ 
+
+```{r}
+## Create glm instead
+n<-10 ##max degree
+
+glm_models<-list() #empty list
+
+for (i in 1:n){
+  glm_models[[i]]<-glm( body_mass_g ~ poly(flipper_length_mm, i ), data= penguins)
+}
+```
+
+Get some errors
+
+```{r}
+library(boot)
+my_error<-c()
+
+for (i in 1:n){
+  my_error[i]<-cv.glm(penguins, glm_models[[i]])$delta[1]
+}
+```
+
+Look at errors
+
+```{r}
+data.frame(my_error, N = 1:n) %>% 
+  ggplot( aes( x = N , y = my_error))+geom_line()
+```
+
+## Example of Rbind
+```{r}
+dd<-data.frame(X = 1:10, Y = 11:20)
+
+dd2<-data.frame(X = 11:20, Y = 21:30)
+
+my_big_data_frame<-rbind(dd, dd2)
+```
+
+

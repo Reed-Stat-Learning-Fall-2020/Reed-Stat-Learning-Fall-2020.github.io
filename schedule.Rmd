@@ -523,6 +523,10 @@ Demo_10-5.Rmd)
 [Lecture Notes](lectures/10-16_Bootstrap.pdf)
 
 #### Topics
+
+- Bias-Variance Tradeoff
+
+  - [Live Code](files/Demo_10-14.html) [.Rmd](files/Demo_10-14.Rmd)
  
 - The bootstrap
 

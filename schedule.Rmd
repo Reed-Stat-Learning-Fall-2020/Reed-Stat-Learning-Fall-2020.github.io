@@ -522,6 +522,8 @@ Demo_10-5.Rmd)
 
 [Lecture Notes](lectures/10-16_Bootstrap.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/p5CWm87Q)
+
 #### Topics
 
 - Bias-Variance Tradeoff

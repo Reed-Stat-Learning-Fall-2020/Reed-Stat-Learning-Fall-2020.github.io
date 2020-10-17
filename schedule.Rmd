@@ -453,6 +453,11 @@ Demo_10-5.Rmd)
 - Section 13.1 (p 329 - 332) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 
 
 
+
+**********************************************
+
+
+
 ## Week 7
 
 
@@ -540,3 +545,65 @@ Demo_10-5.Rmd)
 *Note that the listed reading assignments should be completed prior to class*
 
 - Section 4.3, 4.4, 4.7, 4.8 (p 67 - 73, 77 - 80) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3)
+
+
+
+**********************************************
+
+
+## Week 8
+
+
+
+### Monday 10-19
+
+
+
+#### Topics
+ 
+- Subset Selection
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 6.1 and 6.5.1 - 6.5.3 (p 203 - 214, 244 - 250) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+### Wednesday 10-21
+ 
+
+
+#### Topics
+ 
+- Penalized Regression
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Sections 6.2 and 5.3.4 (p 214 - 228, 251 - 255) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Due
+
+- HW 5
+
+
+#### Assigned
+
+- None
+
+
+### Friday 10-23
+
+ 
+
+#### Topics
+
+- Midterm 2 Review
+
+#### Reading Assignment
+
+- None

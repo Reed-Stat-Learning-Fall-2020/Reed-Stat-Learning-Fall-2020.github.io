@@ -557,7 +557,7 @@ Demo_10-5.Rmd)
 
 ### Monday 10-19
 
-
+[Lecture Slides](lectures/10-19_Subset_Selection.pdf)
 
 #### Topics
  

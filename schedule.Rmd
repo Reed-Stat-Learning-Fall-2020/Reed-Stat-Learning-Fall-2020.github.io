@@ -559,6 +559,8 @@ Demo_10-5.Rmd)
 
 [Lecture Slides](lectures/10-19_Subset_Selection.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/c4MWe26B)
+
 #### Topics
  
 - Subset Selection

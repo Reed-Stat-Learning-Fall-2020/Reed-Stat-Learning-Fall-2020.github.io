@@ -2,6 +2,5 @@
 title: "Projects"
 ---
 
-Throughout the second half of the term, you will work in groups of 3 on a project that answers a significant research question using real-world data, by implementing the fundamental techniques developed in our class, as well as some more advanced methods from supplementary sources. The project will culminate in a 20 minute presentation during the last week of class and a 10-15 page reproducible report.
-
-More information about projects will be posted by Week 6 of the term.
+## Overview
+One of the most important functions of the working statistician is to independently investigate and answer significant research questions by analyzing real-world data, using a variety of elementary and advanced modeling methods, and distilling the results into reports that are accessible to the non-statistician. 

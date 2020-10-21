@@ -577,6 +577,8 @@ Demo_10-5.Rmd)
  
 [Lecture Slides](lectures/10-21_Penalized_Regression.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/i9SAs72X)
+
 #### Topics
  
 - Penalized Regression

@@ -575,7 +575,7 @@ Demo_10-5.Rmd)
 
 ### Wednesday 10-21
  
-
+[Lecture Slides](lectures/10-21_Penalized_Regression.pdf)
 
 #### Topics
  

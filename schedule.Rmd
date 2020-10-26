@@ -664,4 +664,4 @@ No class.
 
 #### Reading Assignment
 
-- None
+- Section 6.4 (p 124 - 128) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3)

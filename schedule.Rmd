@@ -611,3 +611,57 @@ Demo_10-5.Rmd)
 #### Reading Assignment
 
 - None
+
+
+
+**********************************************
+
+
+## Week 9
+
+
+
+### Monday 10-26
+
+
+No class.
+
+### Wednesday 10-28
+ 
+
+#### Topics
+ 
+- Ridge Regression
+
+- Group projects
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Reread Sections 6.2 and 5.3.4 (p 214 - 228, 251 - 255) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+#### Due
+
+- None
+
+
+#### Assigned
+
+- Revisions to Midterm 1 model (due Wednesday 11/4 by 1:35 pm); details forthcoming
+
+
+### Friday 10-30
+
+ 
+
+#### Topics
+
+- LASSO
+
+- Group Projects
+
+#### Reading Assignment
+
+- None

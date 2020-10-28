@@ -627,7 +627,8 @@ Demo_10-5.Rmd)
 No class.
 
 ### Wednesday 10-28
- 
+
+[Lecture Slides](lectures/10-28_Ridge_Regression.pdf)
 
 #### Topics
  

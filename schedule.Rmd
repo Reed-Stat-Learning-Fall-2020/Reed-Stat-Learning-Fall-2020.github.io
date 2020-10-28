@@ -630,6 +630,8 @@ No class.
 
 [Lecture Slides](lectures/10-28_Ridge_Regression.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/Mc45GfFe)
+
 #### Topics
  
 - Ridge Regression

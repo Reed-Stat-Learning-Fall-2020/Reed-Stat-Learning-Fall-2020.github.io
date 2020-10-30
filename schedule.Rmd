@@ -659,6 +659,8 @@ No class.
 
 [Lecture Notes](lectures/10-30_LASSO.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/i3K9RmPs)
+
 #### Topics
 
 - LASSO

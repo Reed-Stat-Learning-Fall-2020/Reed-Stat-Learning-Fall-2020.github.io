@@ -670,3 +670,63 @@ No class.
 #### Reading Assignment
 
 - Section 6.4 (p 124 - 128) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3)
+
+**********************************************
+
+
+## Week 10
+
+
+
+### Monday 11-2
+
+#### Topics
+ 
+- Regression Trees
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.1 (p 301 - 316) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+ 
+
+### Wednesday 11-4
+
+ 
+
+#### Topics
+ 
+- Classification Trees
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section  
+
+#### Due
+
+- HW 6
+
+
+#### Assigned
+
+- HW 7
+
+
+### Friday 11-6
+
+ 
+
+#### Topics
+
+- Bagging
+
+- Group Projects
+
+#### Reading Assignment
+
+- Section 

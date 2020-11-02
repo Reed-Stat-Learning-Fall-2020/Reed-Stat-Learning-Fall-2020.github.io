@@ -709,7 +709,7 @@ No class.
 
 *Note that the listed reading assignments should be completed prior to class*
 
-- Section 8.3.1, 8.3.2 (p 323 - 328) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+- Section 8.1, 8.8 (just the part on Single Trees) and 14.8 (just the part on Classification trees) (p 175 - 184, 212 - 214, 402 - 405) in [Applied Predictive Modeling](https://link-springer-com.proxy.library.reed.edu/book/10.1007%2F978-1-4614-6849-3) 
 
 #### Due
 

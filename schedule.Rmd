@@ -680,9 +680,13 @@ No class.
 
 ### Monday 11-2
 
+[Lecture Notes](lectures/11-2_Trees.pdf)
+
 #### Topics
  
 - Regression Trees
+
+  - [Mtcars regression tree](img/mtplot.png)
 
 
 #### Reading Assignment

@@ -698,7 +698,7 @@ No class.
 
 ### Wednesday 11-4
 
- 
+[Lecture Notes](lectures/11-4_Trees_2.pdf)
 
 #### Topics
  

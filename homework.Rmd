@@ -64,3 +64,9 @@ A weekly problem set will be made available after class on Wednesday, due before
 [Assignment](homework/hw_6.pdf) ([.Rmd](homework/hw_6.Rmd)) [Data](homework/data/house.csv)
 
 **Due: Wednesday, 11/4 by 1:35pm**
+
+## Homework 7
+
+[Assignment](homework/hw_7.pdf) ([.Rmd](homework/hw_7.Rmd)) [Training Data](homework/data/crime.csv) [Test Data](homework/data/crime_tst.csv) [Data Description](data_description_crime.md)
+
+**Due: Wednesday, 11/4 by 1:35pm**

@@ -44,6 +44,8 @@ title: "Schedule"
 
 [Lecture Slides](lectures/9-2_GitHub.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/g6SLd45D)
+
 #### Topics
 
 - RStudio

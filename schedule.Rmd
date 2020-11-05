@@ -9,6 +9,8 @@ title: "Schedule"
 
 [Lecture Slides](lectures/8-31_Intro.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/a8F5TqQf)
+
 #### Topics
 
 - Course Logistics

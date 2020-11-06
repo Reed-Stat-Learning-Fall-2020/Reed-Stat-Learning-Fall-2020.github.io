@@ -686,6 +686,8 @@ No class.
 
 [Lecture Notes](lectures/11-2_Trees.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/a8F5TqQf)
+
 #### Topics
  
 - Regression Trees

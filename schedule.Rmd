@@ -727,13 +727,14 @@ No class.
 
 ### Friday 11-6
 
+[Lecture Notes](lectures/11-6_Trees_3.pdf)
  
 
 #### Topics
 
-- Bagging
+- Classification Trees
 
-- Group Projects
+  - [Classification Tree Activity](files/class-tree-activity.pdf)
 
 #### Reading Assignment
 

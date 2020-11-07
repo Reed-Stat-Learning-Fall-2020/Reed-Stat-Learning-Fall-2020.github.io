@@ -706,6 +706,8 @@ No class.
 
 [Lecture Notes](lectures/11-4_Trees_2.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/t5YKg26L)
+
 #### Topics
  
 - Classification Trees
@@ -730,7 +732,8 @@ No class.
 ### Friday 11-6
 
 [Lecture Notes](lectures/11-6_Trees_3.pdf)
- 
+
+[Lecture Video](https://ensemble.reed.edu/Watch/Zc87Czk9)
 
 #### Topics
 

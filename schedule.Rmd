@@ -744,3 +744,28 @@ No class.
 #### Reading Assignment
 
 - Section 8.2.1 (p 316 - 319) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+**************************************************
+
+## Week 11
+
+
+
+### Monday 11-9
+
+[Lecture Notes](lectures/11-9_Bagging.pdf)
+
+
+#### Topics
+ 
+- Bagging and Random Forests Trees
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.2  (p 316 - 324) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)

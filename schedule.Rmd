@@ -756,6 +756,7 @@ No class.
 
 [Lecture Notes](lectures/11-9_Bagging.pdf)
 
+[Lecture Video](https://ensemble.reed.edu/Watch/Xa2j7LYf)
 
 #### Topics
  

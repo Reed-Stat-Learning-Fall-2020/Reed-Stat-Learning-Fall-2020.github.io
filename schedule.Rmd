@@ -769,3 +769,56 @@ No class.
 *Note that the listed reading assignments should be completed prior to class*
 
 - Section 8.2  (p 316 - 324) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+
+
+
+### Wednesday 11-11
+
+ 
+
+
+#### Topics
+ 
+- Boosting for Classification and Regression
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 8.2, 8.3.3 - 8.3.4  (p 316 - 324, 328 - 331) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+#### Due
+
+- HW 7
+
+
+#### Assigned
+
+- HW 8
+
+
+### Friday 11-13
+
+ 
+
+
+#### Topics
+ 
+- Ensemble Methods
+
+- The `Stacks` package
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- TBA

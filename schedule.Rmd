@@ -779,6 +779,7 @@ No class.
 
 [Lecture Notes](lectures/11-11_Boosting.pdf) 
 
+[Lecture Video](https://ensemble.reed.edu/Watch/x9W4Yrg7)
 
 #### Topics
  

@@ -777,7 +777,7 @@ No class.
 
 ### Wednesday 11-11
 
- 
+[Lecture Notes](lectures/11-11_Boosting.pdf) 
 
 
 #### Topics

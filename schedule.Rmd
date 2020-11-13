@@ -807,14 +807,12 @@ No class.
 
 ### Friday 11-13
 
- 
+[Lecture Notes](lectures/11-13_Model_Trees.pdf) 
 
 
 #### Topics
  
-- Ensemble Methods
-
-- The `Stacks` package
+- Model Trees
 
 
 

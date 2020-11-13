@@ -67,6 +67,12 @@ A weekly problem set will be made available after class on Wednesday, due before
 
 ## Homework 7
 
-[Assignment](homework/hw_7.pdf) ([.Rmd](homework/hw_7.Rmd)) [Training Data](homework/data/crime.csv) [Test Data](homework/data/crime_tst.csv) [Data Description](data_description_crime.md)
+[Assignment](homework/hw_7.pdf) ([.Rmd](homework/hw_7.Rmd)) [Training Data](homework/data/crime.csv) [Test Data](homework/data/crime_tst.csv) [Data Description](homework/data/data_description_crime.md)
 
-**Due: Wednesday, 11/4 by 1:35pm**
+**Due: Wednesday, 11/11 by 1:35pm**
+
+## Homework 8
+
+[Assignment](homework/hw_8.pdf) ([.Rmd](homework/hw_8.Rmd)) [Training Data](homework/data/crime.csv) [Test Data](homework/data/crime_tst.csv) [Data Description](homework/data/data_description_crime.md) [Letters Data](homework/data/lettersdf.csv)
+
+**Due: Wednesday, 11/18 by 1:35pm**

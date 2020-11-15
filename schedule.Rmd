@@ -822,3 +822,75 @@ No class.
 *Note that the listed reading assignments should be completed prior to class*
 
 - TBA
+
+
+**************************************************
+
+## Week 12
+
+
+
+### Monday 11-16
+
+
+
+#### Topics
+ 
+- Principal Component Analysis
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 10.1 - 10.2  (p 373 - 384) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+
+
+
+### Wednesday 11-18
+
+ 
+
+#### Topics
+ 
+- More PCA
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Section 10.4  (p 401 - 404) in [Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/)
+
+
+#### Due
+
+- HW 8
+
+
+#### Assigned
+
+- None
+
+
+### Friday 11-20
+ 
+
+#### Topics
+ 
+- Additional Considerations in Data Pre-Processing
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- TBA

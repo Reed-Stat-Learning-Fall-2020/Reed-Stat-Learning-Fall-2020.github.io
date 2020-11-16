@@ -828,7 +828,7 @@ No class.
 
 ## Week 12
 
-
+[Lecture Notes](lectures/11-16_PCR.pdf) 
 
 ### Monday 11-16
 
@@ -836,7 +836,7 @@ No class.
 
 #### Topics
  
-- Principal Component Analysis
+- Principal Component Regression
 
 
 

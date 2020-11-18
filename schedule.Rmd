@@ -853,6 +853,7 @@ No class.
 
 ### Wednesday 11-18
 
+[Lecture Notes](lectures/11-18_PCA.pdf) 
  
 
 #### Topics

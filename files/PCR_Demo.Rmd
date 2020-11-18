@@ -1,0 +1,25 @@
+---
+title: "PCR Demo"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+
+## Data
+
+```{r}
+library(ISLR)
+Hitters <- Hitters %>% drop_na()
+```
+
+## PCR
+
+## Full
+
+## Ridge Regression
+
+## LASSO

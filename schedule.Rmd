@@ -829,6 +829,7 @@ No class.
 ## Week 12
 
 [Lecture Notes](lectures/11-16_PCR.pdf) 
+[Lecture Video](https://ensemble.reed.edu/Watch/g2BKa83L)
 
 ### Monday 11-16
 
@@ -854,7 +855,7 @@ No class.
 ### Wednesday 11-18
 
 [Lecture Notes](lectures/11-18_PCA.pdf) 
- 
+[Lecture Video](https://ensemble.reed.edu/Watch/Fc3p6NKr)
 
 #### Topics
  

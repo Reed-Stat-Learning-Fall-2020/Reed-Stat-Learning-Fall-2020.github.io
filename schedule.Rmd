@@ -882,11 +882,12 @@ No class.
 
 
 ### Friday 11-20
- 
+
+[Lecture Video](https://ensemble.reed.edu/Watch/i2M8WrGk) 
 
 #### Topics
  
-- Additional Considerations in Data Pre-Processing
+- PCA in R
 
 
 
@@ -895,4 +896,4 @@ No class.
 
 *Note that the listed reading assignments should be completed prior to class*
 
-- TBA
+- None

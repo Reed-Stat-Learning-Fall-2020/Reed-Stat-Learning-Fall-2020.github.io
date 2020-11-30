@@ -908,6 +908,8 @@ No class.
 
 [Lecture Notes](lectures/11-30_tidymodels.pdf) 
 
+[Lecture Video](https://ensemble.reed.edu/Watch/Ck47QnKx)
+
 
 #### Topics
  
@@ -920,7 +922,7 @@ No class.
 
 *Note that the listed reading assignments should be completed prior to class*
 
-- Chapters 4 and 7 in [Tidy Modeling with R](https://www.tmwr.org/)
+- Skim Chapters 4 and 7 in [Tidy Modeling with R](https://www.tmwr.org/)
 
 
 
@@ -941,7 +943,7 @@ No class.
 
 *Note that the listed reading assignments should be completed prior to class*
 
-- Chapters 6, 8 and 9 in [Tidy Modeling with R](https://www.tmwr.org/) 
+- Skim Chapters 6, 8 and 9 in [Tidy Modeling with R](https://www.tmwr.org/) 
 
 
 #### Due

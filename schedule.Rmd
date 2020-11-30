@@ -828,12 +828,12 @@ No class.
 
 ## Week 12
 
-[Lecture Notes](lectures/11-16_PCR.pdf) 
-[Lecture Video](https://ensemble.reed.edu/Watch/g2BKa83L)
+
 
 ### Monday 11-16
 
-
+[Lecture Notes](lectures/11-16_PCR.pdf) 
+[Lecture Video](https://ensemble.reed.edu/Watch/g2BKa83L)
 
 #### Topics
  
@@ -888,6 +888,79 @@ No class.
 #### Topics
  
 - PCA in R
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- None
+
+**************************************************
+
+## Week 13
+
+
+### Monday 11-30
+
+
+[Lecture Notes](lectures/11-30_tidymodels.pdf) 
+
+
+#### Topics
+ 
+- tidymodels
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Chapters 4 and 7 in [Tidy Modeling with R](https://www.tmwr.org/)
+
+
+
+
+
+### Wednesday 12-2
+
+ 
+
+#### Topics
+ 
+- More tidymodels
+
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- Chapters 6, 8 and 9 in [Tidy Modeling with R](https://www.tmwr.org/) 
+
+
+#### Due
+
+- None
+
+
+#### Assigned
+
+- None
+
+
+### Friday 12-4
+
+ 
+
+#### Topics
+ 
+-  Review
 
 
 

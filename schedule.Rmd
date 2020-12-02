@@ -932,6 +932,8 @@ No class.
 
 [Lecture Notes](lectures/12-2_Tidymodels_II.pdf) 
 
+[Lecture Video](https://ensemble.reed.edu/Watch/Tw74DcYs)
+
 #### Topics
  
 - More tidymodels

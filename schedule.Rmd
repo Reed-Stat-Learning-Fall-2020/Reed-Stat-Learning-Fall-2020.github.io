@@ -906,7 +906,7 @@ No class.
 ### Monday 11-30
 
 
-[Lecture Notes](lectures/11-30_tidymodels.pdf) 
+[Lecture Notes](lectures/11-30_Tidymodels.pdf) 
 
 [Lecture Video](https://ensemble.reed.edu/Watch/Ck47QnKx)
 
@@ -930,7 +930,7 @@ No class.
 
 ### Wednesday 12-2
 
-[Lecture Notes](lectures/12-2_tidymodels_II.pdf) 
+[Lecture Notes](lectures/12-2_Tidymodels_II.pdf) 
 
 #### Topics
  

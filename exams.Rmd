@@ -64,3 +64,35 @@ Three take-home exams will be given during the term, and will be made available 
   
   
 7. I will be available to troubleshoot and answer technical questions from noon to 5pm PDT on Sunday 10-25. If you run into problems outside of this time frame, document the problem in your exam and message me on slack. I will try to respond as soon as I can, but can't guarantee I will available at that moment. In any case, be sure to submit within 3 hours of accepting the assignment. If the problem is severe enough, we may discuss alternatives.
+
+
+## Exam 3
+
+### Logistics
+
+1. The exam will be lightly cumulative, but with strong emphasis on material from Chapter 6, 8 and 10.2 of ISLR.
+
+2. The exam will be made available on GitHub at 3pm PDT on Friday, 12-4. A link to the exam will be posted in the #announcements channel on Slack.
+
+3. You must submit your completed exam via pushing any commits to GitHub prior to 1:35pm PDT on Monday, 12-7.
+
+4. This is a timed exam. You should schedule 3 consecutive hours to work on the exam sometime between Friday and Monday. **Once you accept the assignment by following the GitHub link and creating your exam repo, you must submit your exam by pushing commits within the following 3 hours**. A cumulative 5% grade penalty will be applied for every 10 minutes you exceed this time limit.
+
+
+5. You may freely consult the following references during the exam:
+  - Your ISLR textbook
+  - Any course notes you have taken
+  - Lecture slides on the course website
+  - Homework problems you have submitted
+  - Built-in RStudio help files and cheatsheets
+  
+6. You may not consult any other resources, including (but not limited to):
+  - Classmates
+  - Tutors
+  - Other faculty
+  - Other textbooks
+  - Online help (stackexchange, message boards, etc.)
+  
+  
+7. I will be available to troubleshoot and answer technical questions from noon to 5pm PDT on Sunday 12-6. If you run into problems outside of this time frame, document the problem in your exam and message me on slack. I will try to respond as soon as I can, but can't guarantee I will available at that moment. In any case, be sure to submit within 3 hours of accepting the assignment. If the problem is severe enough, we may discuss alternatives.
+

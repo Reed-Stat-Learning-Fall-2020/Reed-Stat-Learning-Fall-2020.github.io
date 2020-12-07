@@ -976,3 +976,54 @@ No class.
 *Note that the listed reading assignments should be completed prior to class*
 
 - None
+
+
+********************************************************************
+
+
+## Week 14
+
+
+### Monday 12-7
+
+
+[Lecture Notes](lectures/12-7_Stacks.pdf) 
+
+ 
+
+
+#### Topics
+ 
+- `stacks`
+
+
+
+#### Reading Assignment
+
+*Note that the listed reading assignments should be completed prior to class*
+
+- The `stacks` [vignette](https://stacks.tidymodels.org/articles/basics.html)
+
+
+********************************************************************
+
+
+## Week 15
+
+
+### Monday 12-14
+
+
+
+ 
+
+
+#### Topics
+ 
+- Presentations 9am to Noon
+
+
+
+#### Reading Assignment
+
+- None

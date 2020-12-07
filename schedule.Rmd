@@ -960,7 +960,9 @@ No class.
 
 ### Friday 12-4
 
- 
+[Lecture Notes](lectures/12-4_Tidymodels_III.pdf) 
+
+[Lecture Video](https://ensemble.reed.edu/Watch/i3D8SgRe)
 
 #### Topics
  
